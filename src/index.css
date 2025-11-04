@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Momo+Signature&family=Smooch+Sans:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Momo+Signature&family=Noto+Serif+Khmer:wdth,wght@62.5,900&family=Smooch+Sans:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Konkhmer+Sleokchher&family=Momo+Signature&family=Noto+Serif+Khmer:wdth@62.5&family=Smooch+Sans:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Battambang:wght@100;300;400;700;900&family=Doto:wght@100..900&family=Konkhmer+Sleokchher&family=Momo+Signature&family=Noto+Serif+Khmer:wdth@62.5&family=Smooch+Sans:wght@100..900&display=swap');
+@font-face{
+        font-family: Doto;
+        src: url("../src/assets/Fonts/Doto-Regular.ttf");
+    }
+    @font-face {
+        font-family: Moul;
+        src: url("../src/assets/Fonts/Moul.ttf");
+    }
+
+@import "tailwindcss";
+
+@theme{
+    --font-battambong:Battambang,"sans-sarif";
+    --font-konkhmer:Konkhmer Sleokchher,"sans-sarif";
+    --font-doto:Doto,"sans-sarif";
+    --font-moul:Moul,"sans-sarif";
+    --font-smach-san:Smooch Sans,"sans-sarif";
+    --font-noto:Noto Serif Khmer,"sans-sarif";
+}
