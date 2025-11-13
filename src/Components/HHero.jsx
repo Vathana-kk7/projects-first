@@ -124,9 +124,6 @@ function HHero() {
             className="font-battambong text-white py-2 px-5 mt-5 rounded-full active:ring-1 cursor-pointer ">
             ដើរលេងខ្លះទៅ...
           </button>
-
-
-
           </div>
         </div>
       </div>
